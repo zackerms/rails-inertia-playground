@@ -1,5 +1,6 @@
 import { type FormComponentProps } from '@inertiajs/core'
 import { Form as InertiaForm } from '@inertiajs/react'
+import { Button } from '@giftee/abukuma-react'
 
 import type { TaskType, TaskFormType } from './types'
 
@@ -31,9 +32,9 @@ export default function Form({ task, submitText, ...formProps }: FormProps) {
             )}
           </div>
           <div>
-            <button type="submit" disabled={processing}>
+            <Button type="submit" variant='outlined' disabled={processing}>
               {submitText}
-            </button>
+            </Button>
           </div>
         </>
       )}
