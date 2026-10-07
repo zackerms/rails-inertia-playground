@@ -13,6 +13,7 @@
     "check": "tsc -p tsconfig.app.json && tsc -p tsconfig.node.json"
   },
   "dependencies": {
+    "@giftee/abukuma-react": "^4.5.2",
     "@inertiajs/react": "^3.8.0",
     "@inertiajs/vite": "^3.8.0",
     "@vitejs/plugin-react": "^6.1.2",
