@@ -1,5 +1,5 @@
 import { Head, Link, usePage } from '@inertiajs/react'
-import Task from './task'
+import Task from '../../components/tasks/task'
 import { TaskType } from './types'
 
 interface ShowProps {

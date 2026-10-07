@@ -1,4 +1,4 @@
-import { TaskType } from './types'
+import { TaskType } from '../../pages/tasks/types'
 
 interface TaskProps {
   task: TaskType
